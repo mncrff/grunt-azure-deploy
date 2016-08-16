@@ -1,7 +1,7 @@
 {
   "name": "grunt-azure-deploy",
   "description": "Deploys a directory to an Azure website.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/mncrff/grunt-azure-deploy",
   "author": {
     "name": "Alycia Moncrieff",
