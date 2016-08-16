@@ -26,7 +26,7 @@ In your project's Gruntfile, add a section named `azureDeploy` to the data objec
 
 ```js
 grunt.initConfig({
-  azure_deploy: {
+  azureDeploy: {
     options: {
       credential_file: process.env['HOME']+'/.azure/creds.json' // the location and name of your Azure credentials stored as JSON
     },
