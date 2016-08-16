@@ -21,7 +21,6 @@ grunt.loadNpmTasks('grunt-azure-deploy');
 
 ## Usage
 
-### Overview
 In your project's Gruntfile, add a section named `azureDeploy` to the data object passed into `grunt.initConfig()`.
 
 ```js
@@ -42,6 +41,12 @@ Type: `String`
 Default value: `'.azure_deploy.json'`
 
 A string value that is used to specify the location of the Azure deployment credentials file. File should be formatted as JSON.
+
+### Enable Deployment in the Azure Portal
+
+1. Log in to the Azure Portal.
+2. In your App Service app's blade, click Settings > Deployment source. Click Choose source, then click Local Git Repository, and then click OK.
+3. If this is your first time setting up a repository in Azure, you need to create login credentials for it under Settings > Deployment credentials.
 
 ### Managing Azure Credentials
 
